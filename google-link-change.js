@@ -8,7 +8,9 @@
 // @icon         https://www.google.com/s2/favicons?domain=github.com
 // @grant        none
 // ==/UserScript==
-
+/**
+ * Todo input class is gNO89b of value = Google 検索-> Google 検索 test change
+ */
 (function() {
     'use strict';
    console.log("hello,world")
