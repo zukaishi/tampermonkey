@@ -13,8 +13,22 @@
 
 (function() {
     'use strict';
-    console.log("google-link-change1")
-    let element = document.getElementsByClassName('gNO89b')
-    console.log(element)
-    console.log(element.length)
+    console.log("google-link-change start")
+    let element1 = document.getElementsByClassName('gNO89b')
+    console.log(element1)
+    console.log(element1.length)
+
+    for (let i = 0; i < element1.length; i++) {
+        element1.item(i).value = element1.item(i).value + "test";
+    }
+
+    let element2 = document.getElementsByClassName('pHiOh')
+    console.log(element2)
+    console.log(element2.length)
+
+    for (let i = 0; i < element2.length; i++) {
+        console.log(element2.item(i).href )
+        element2.item(i).href = "https://google.com";
+    }
+    console.log("google-link-change end")
 })();
