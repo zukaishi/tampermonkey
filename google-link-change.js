@@ -13,15 +13,12 @@
 
 (function() {
     'use strict';
-   console.log("google-link-change")
-
-        alert("google-link-change1")
-
+    console.log("google-link-change1")
     var targNode    = document.getElementById ("gNO89b");
-        alert("google-link-change2")
-    targNode.classList.remove ("disabled");
-    alert("google-link-change4")
-    targNode.classList.add ("enabled");
+    console.log("google-link-change2")
 
-    alert("google-link-change3")
+    targNode.classList.remove ("disabled");
+    console.log("google-link-change3")
+    targNode.classList.add ("enabled");
+    console.log("google-link-change4")
 })();
