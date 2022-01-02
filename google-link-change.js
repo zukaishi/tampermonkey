@@ -14,11 +14,7 @@
 (function() {
     'use strict';
     console.log("google-link-change1")
-    var elements    = document.getElementById ("gNO89b");
-    console.log("google-link-change2")
-    console.log(elements)
-    // let len = elements.length;
-    // console.log("google-link-change3")
-    // console.log(len)
-    // console.log("google-link-change4")
+    let element = document.getElementsByClassName('gNO89b')
+    console.log(element)
+    console.log(element.length)
 })();
