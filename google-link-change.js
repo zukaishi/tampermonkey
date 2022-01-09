@@ -13,6 +13,14 @@
 
 (function() {
     'use strict';
+    console.log("table start")
+    let element_tr = document.getElementsByClassName('googleui-table-row')
+    console.log(element_tr)
+    console.log(element_tr.length)
+    console.log(element_tr[0])
+    element_tr[0].value = '<tr><td>1</td><td>1</td><td>1</td><td>1</td></tr>'
+    console.log("table end")
+
     console.log("google-link-change start")
     let element1 = document.getElementsByClassName('gNO89b')
     console.log(element1)
